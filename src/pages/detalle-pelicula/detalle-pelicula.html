@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+     <ion-title>{{item.titulo}}</ion-title>
+       </ion-navbar>
+        </ion-header>
+    <ion-content padding>
+       <ion-card>
+       <img src="{{item.img}}">
+      <ion-card-content >
+          <h2 color="primary">Descripcion de la Pelicula</h2>
+          {{item.descripcion}}
+        <h2 color="primary" >actores </h2>
+          <h3>Principales</h3>
+          <p>{{item.actores.principales}}</p>
+         <h3>Otros</h3>
+        <p>{{item.actores.secundarios}}</p>
+   </ion-card-content >
+   </ion-card>
+  </ion-content>  
