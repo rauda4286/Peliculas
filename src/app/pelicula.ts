@@ -1,14 +1,14 @@
-export class Pelicula
-{
+export class Pelicula{
+    
     id:number;
     img:string;
     titulo:string;
     descripcion:string;
-    actores:{
-    principales:string,
-    secundarios:string
-};
-categoria:string;
-precio:number;
+    categoria:string;
+    precio:number;
 
+    actores:{
+        principales:string;
+        secundarios:string;
     }
+}

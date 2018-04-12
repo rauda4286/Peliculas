@@ -7,11 +7,11 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
-import {DetallePeliculaPage} from '../pages/detalle-pelicula/detalle-pelicula';
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import {TicketPage} from '../pages/ticket/ticket'
-import {CategoriasPage} from '../pages/categorias/categorias';
+import { DetallePeliculaPage } from '../pages/detalle-pelicula/detalle-pelicula';
+import { TicketPage } from '../pages/ticket/ticket';
 
 @NgModule({
   declarations: [
@@ -19,10 +19,9 @@ import {CategoriasPage} from '../pages/categorias/categorias';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage,
     DetallePeliculaPage,
-    TicketPage,
-    CategoriasPage
+    TabsPage,
+    TicketPage
   ],
   imports: [
     BrowserModule,
@@ -34,10 +33,9 @@ import {CategoriasPage} from '../pages/categorias/categorias';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage,
     DetallePeliculaPage,
-    TicketPage,
-    CategoriasPage
+    TabsPage,
+    TicketPage
   ],
   providers: [
     StatusBar,
